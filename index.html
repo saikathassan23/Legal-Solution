@@ -59,7 +59,7 @@
                                 <li><a>Item 3</a></li>
                             </ul>
                         </div>
-                        <img src="./images/logo2.png" alt="">
+                        <img class="hidden sm:block" src="./images/logo2.png" alt="">
                     </div>
                     <div class="navbar-center hidden lg:flex">
                         <ul class="menu menu-horizontal px-1">
@@ -112,12 +112,15 @@
             <div class="hero" style="background-image: url('./images/banner.png');">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
-                    <div class="py-24 px-32">
-                        <h1 class="mb-5 text-7xl font-bold">We Provide Effective <br> Legal Solutions</h1>
-                        <p class="mb-5 max-w-md mx-auto text-base">There are many variations of passages of Lorem Ipsum available, but the majority
+                    <div class="md:py-24 md:px-32">
+                        <h1 class="md:mb-5 mb-3 text-5xl md:text-7xl font-bold">We Provide Effective <br> Legal
+                            Solutions</h1>
+                        <p class="mb-5 max-w-md mx-auto text-base">There are many variations of passages of Lorem Ipsum
+                            available, but the majority
                             have suffered alteration in some form, by injected humour.</p>
                         <div class="flex justify-center gap-10">
-                            <input class="input max-w-md outline-none" type="text" placeholder="Search your services">
+                            <input class="input input-bordered w-full max-w-xs" type="text"
+                                placeholder="Search your services">
                             <button class="btn bg-bg-btn text-white border-none">Search</button>
                         </div>
                     </div>
